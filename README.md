@@ -2,10 +2,10 @@
 
 ### About the dataset
 We went through the RBI website to find a dataset on CPI\
-We found a dataset which had CPI values from Jan 2014 until Aug 2022\
+We found a dataset which had CPI values from Jan 2014 until Aug 2022
 
 ### Pre-processing
-Since the data was from RBI, it was already cleaned therefore we didn't do any pre-processing\n
+Since the data was from RBI, it was already cleaned therefore we didn't do any pre-processing\
 We plotted graphs to visualize the data
 
 ### Model Building
