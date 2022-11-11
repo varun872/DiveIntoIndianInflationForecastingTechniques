@@ -22,13 +22,10 @@ The Ljung-Box test value smaller than 0.05 which suggested that the model was no
 We noticed that ARIMA model predicted values which were way different from test values\
 Plotted graph of the predicted values with the original values showed a straight line which implied that the prediction was incorrect
 
-
-
 ### Model Building 2 -SARIMA
-We have used auto_arima function from pmdarima library which finds the best sarima model for the given data and returns the model.
-The best SARIMA which we got using the above function has order = (2,1,0) and seasonal_order=(0,1,2,12).
+We have used auto_arima function from pmdarima library which finds the best sarima model for the given data and returns the model.\
+The best SARIMA parameters we got using the above function has order = (2,1,0) and seasonal_order=(0,1,2,12).\
 Even for SARIMA we have used 80:20 train test split for training the model.
 
 ### Observations
 The graph plotted between predicted values and original values shows that they are almost similar to each other but with a gap between them. 
-
