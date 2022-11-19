@@ -39,7 +39,7 @@ Post scaling the data we divide the dataaet into test and train sets.\
 We specify the number of moinths as 12 and number of features as 1 to our generator.\
 we fit the model with our specified generator to about 50 epochs, we then calculate loss for the epochs and plot it.\
 We see the loss function decreases as the epochs increase and stabilizes around 50.\
-The epoch loss funtion gives us the confidence to finally make our predictions on the test dataset.\
+The epoch loss funtion gives us the confidence to finally make our predictions on the test dataset.
 
 ### Observations
 Plotting our predictions along side our test values, calculating RMSE for the plot gives us a value of 2.311.\
